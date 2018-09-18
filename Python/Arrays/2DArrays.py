@@ -16,7 +16,6 @@ def hourglassSum(arr):
                 total = arr[i][j] + arr[i][j+1] + arr[i][j+2] + arr[i+1][j+1] + arr[i+2][j] + arr[i+2][j+1] + arr[i+2][j+2] 
                 if maxVal <= total:
                     maxVal = total
-                    print("index starting at: " + str(i))
     return maxVal 
 
 if __name__ == '__main__':
